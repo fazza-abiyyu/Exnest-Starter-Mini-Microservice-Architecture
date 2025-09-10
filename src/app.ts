@@ -1,11 +1,11 @@
 import express from "express";
-import router from "./endpoints/health.endpoint";
-import { errorMiddleware } from "./middlewares/error.middleware";
+import health from "~/endpoints/health.endpoint";
+import { errorMiddleware } from "~/middlewares/error.middleware";
 
 const app = express();
 
 app.use(express.json());
-app.use("/api", router);
+app.use("/api", health);
 
 app.use(errorMiddleware);
 

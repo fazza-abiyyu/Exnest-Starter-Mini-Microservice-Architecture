@@ -1,8 +1,8 @@
 import { Router } from "express";
-import healthRouter from "../routes/health.route";
+import healthRouter from "~/modules/health/health.route";
 
-const router = Router();
+const health = Router();
 
-router.use("/health", healthRouter);
+health.use("/health", healthRouter);
 
-export default router;
+export default health;
