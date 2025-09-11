@@ -1,6 +1,6 @@
 import express from "express";
-import health from "~/endpoints/health.endpoint";
-import { errorMiddleware } from "~/middlewares/error.middleware";
+import health from "./endpoints/health.endpoint";
+import { errorMiddleware } from "./middlewares/error.middleware";
 
 const app = express();
 

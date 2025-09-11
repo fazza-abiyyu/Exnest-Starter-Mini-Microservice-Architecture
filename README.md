@@ -162,7 +162,7 @@ This project uses a microservice architecture where each module can run independ
 ```typescript
 // src/modules/your-module/app.ts
 import express from "express";
-import { errorMiddleware } from "~/middlewares/error.middleware";
+import { errorMiddleware } from "../../middlewares/error.middleware";
 import yourModuleRouter from "./your-module.route";
 
 const app = express();

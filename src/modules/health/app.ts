@@ -1,6 +1,6 @@
 import express from "express";
-import healthRouter from "~/modules/health/health.route";
-import { errorMiddleware } from "~/middlewares/error.middleware";
+import healthRouter from "./health.route";
+import { errorMiddleware } from "../../middlewares/error.middleware";
 
 const app = express();
 

@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from "express";
-import { HealthService } from "~/modules/health/health.service";
-import { okResponse } from "~/utils/response.utils";
+import { HealthService } from "./health.service";
+import { okResponse } from "../../utils/response.utils";
 
 export class HealthController {
   private readonly service: HealthService;
