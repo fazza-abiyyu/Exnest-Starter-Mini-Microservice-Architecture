@@ -1,8 +1,20 @@
-# Exnest Starter
+<div align="center">
+  <img src="public/logo.png" alt="Exnest Logo" width="300"/>
+  
+  <h1>Exnest Starter</h1>
+  
+  <p>A minimal Express + TypeScript + Prisma starter with microservice architecture and clean, modular layout.</p>
+  
+  <p><i>Express with a Nest-like architecture; this is not NestJS.</i></p>
+</div>
 
-A minimal Express + TypeScript + Prisma starter with microservice architecture and clean, modular layout.
 
-> **Note**: Express with a Nest-like architecture; this is not NestJS.
+<div align="center" class="framework-icons">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/>
+  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma"/>
+</div>
 
 ## 🚀 Tech Stack
 
