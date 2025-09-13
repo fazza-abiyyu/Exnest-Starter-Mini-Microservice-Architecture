@@ -1,5 +1,4 @@
 <div align="center">
-  <img src="public/logo.png" alt="Exnest Logo" width="300"/>
   
   <h1>Exnest Starter</h1>
   
